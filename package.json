@@ -1,0 +1,15 @@
+{
+  "name": "assessmentqa",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "testcafe ./__tests__/"
+  },
+  "author": "naufalfh",
+  "license": "ISC",
+  "devDependencies": {
+    "dotenv": "^8.2.0",
+    "testcafe": "^1.9.2"
+  }
+}

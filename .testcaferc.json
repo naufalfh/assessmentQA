@@ -1,0 +1,18 @@
+{
+    "browsers": "chrome",
+    "pageLoadTimeout": 30000,
+    "selectorTimeout": 30000,
+    "reporter": [
+        {
+            "name": "spec"
+        },
+        {
+            "name": "json",
+            "output": "reports/report.json"
+        }
+    ],
+    "screenshots": {
+        "path": "screenshot",
+        "takeOnFails": "true"
+    }
+}
